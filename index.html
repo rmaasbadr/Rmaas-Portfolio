@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Rmaas Badr - Software Engineering Student Portfolio">
+
+    <title>Rmaas Badr | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Aqari Image Styling -->
+    <style>
+        .project-image img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: contain;
+            background-color: #FFFFFF;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================= -->
+
+    <header class="header">
+
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span data-en="Rmaas" data-ar="رماس">Rmaas</span><span>.</span>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="#home"
+                       data-en="Home"
+                       data-ar="الرئيسية">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#about"
+                       data-en="About"
+                       data-ar="عني">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#skills"
+                       data-en="Skills"
+                       data-ar="المهارات">
+                        Skills
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#projects"
+                       data-en="Projects"
+                       data-ar="المشاريع">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#experience"
+                       data-en="Experience"
+                       data-ar="الخبرات">
+                        Experience
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#certificates"
+                       data-en="Certificates"
+                       data-ar="الشهادات">
+                        Certificates
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact"
+                       data-en="Contact"
+                       data-ar="التواصل">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="nav-actions">
+
+                <button
+                    id="languageBtn"
+                    type="button"
+                    aria-label="Change language">
+                    AR
+                </button>
+
+                <button
+                    id="themeBtn"
+                    type="button"
+                    aria-label="Change theme">
+                    ☾
+                </button>
+
+                <button
+                    id="menuBtn"
+                    type="button"
+                    aria-label="Open menu"
+                    aria-expanded="false">
+                    ☰
+                </button>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HOME
+    ========================= -->
+
+    <section id="home" class="hero">
+
+        <div class="container hero-content reveal">
+
+            <span
+                class="hero-tag"
+                data-en="WELCOME TO MY PORTFOLIO"
+                data-ar="مرحبًا بكم في ملف أعمالي">
+                WELCOME TO MY PORTFOLIO
+            </span>
+
+            <h1>
+
+                <span
+                    data-en="Hi, I'm"
+                    data-ar="مرحبًا، أنا">
+                    Hi, I'm
+                </span>
+
+                <br>
+
+                <span
+                    class="highlight"
+                    data-en="Rmaas Badr."
+                    data-ar="رماس بدر">
+                    Rmaas Badr.
+                </span>
+
+            </h1>
+
+            <h2
+                data-en="Software Engineering Student | Developer | Creative Thinker"
+                data-ar="طالبة هندسة برمجيات | مطورة | مفكرة إبداعية">
+
+                Software Engineering Student | Developer | Creative Thinker
+
+            </h2>
+
+            <p
+                data-en="Passionate about technology, software development, and turning creative ideas into meaningful digital experiences."
+                data-ar="شغوفة بالتقنية وتطوير البرمجيات وتحويل الأفكار الإبداعية إلى تجارب رقمية مميزة.">
+
+                Passionate about technology, software development,
+                and turning creative ideas into meaningful digital experiences.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#projects"
+                    class="btn primary"
+                    data-en="View My Work"
+                    data-ar="استعرض مشاريعي">
+
+                    View My Work
+
+                </a>
+
+                <a
+                    href="#contact"
+                    class="btn secondary"
+                    data-en="Get In Touch"
+                    data-ar="تواصل معي">
+
+                    Get In Touch
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-decoration"></div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT ME
+    ========================= -->
+
+    <section id="about" class="section">
+
+        <div class="container reveal">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    01 / ABOUT
+                </span>
+
+                <h2
+                    data-en="About Me"
+                    data-ar="نبذة عني">
+
+                    About Me
+
+                </h2>
+
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text">
+
+                    <p
+                        data-en="I'm Rmaas Badr, a Junior Software Engineering student at the University of Jeddah. My passion lies at the intersection of technology and creativity. I believe coding is more than writing lines of code; it's about transforming ideas into innovative solutions that make a meaningful impact."
+                        data-ar="أنا رماس بدر، طالبة هندسة برمجيات في السنة الرابعة بجامعة جدة. يجمع شغفي بين التقنية والإبداع، وأؤمن بأن البرمجة ليست مجرد كتابة أكواد، بل وسيلة لتحويل الأفكار إلى حلول مبتكرة تصنع فرقًا حقيقيًا.">
+
+                        I'm Rmaas Badr, a Junior Software Engineering student
+                        at the University of Jeddah. My passion lies at the
+                        intersection of technology and creativity. I believe
+                        coding is more than writing lines of code; it's about
+                        transforming ideas into innovative solutions that make
+                        a meaningful impact.
+
+                    </p>
+
+                    <p
+                        data-en="Beyond software development, my interests extend to design, media, photography, and volunteering. Through my involvement in student organizations, tech communities, and volunteering teams, I continue to develop my leadership, communication, and teamwork skills."
+                        data-ar="لا تقتصر اهتماماتي على تطوير البرمجيات، بل تمتد إلى التصميم والإعلام والتصوير والعمل التطوعي. ومن خلال مشاركتي في الأندية والمجتمعات التقنية والفرق التطوعية، أعمل على تطوير مهاراتي في القيادة والتواصل والعمل الجماعي.">
+
+                        Beyond software development, my interests extend
+                        to design, media, photography, and volunteering.
+                        Through my involvement in student organizations,
+                        tech communities, and volunteering teams,
+                        I continue to develop my leadership,
+                        communication, and teamwork skills.
+
+                    </p>
+
+                    <p
+                        data-en="I'm always eager to explore new opportunities, expand my knowledge, and combine my technical skills with creativity to build meaningful and impactful projects."
+                        data-ar="أسعى باستمرار إلى اكتشاف فرص جديدة للتعلم والتطور، وأطمح إلى توظيف معرفتي التقنية وحسي الإبداعي في بناء مشاريع تجمع بين الابتكار والتأثير الإيجابي.">
+
+                        I'm always eager to explore new opportunities,
+                        expand my knowledge, and combine my technical skills
+                        with creativity to build meaningful and impactful projects.
+
+                    </p>
+
+                    <a
+                        href="assets/Rmaas-CV.pdf"
+                        class="btn primary"
+                        download
+                        data-en="Download CV"
+                        data-ar="تحميل السيرة الذاتية">
+
+                        Download CV
+
+                    </a>
+
+                </div>
+
+
+                <!-- ABOUT CARD -->
+
+                <div class="about-card">
+
+                    <div class="about-card-item">
+
+                        <span
+                            data-en="University"
+                            data-ar="الجامعة">
+                            University
+                        </span>
+
+                        <strong
+                            data-en="University of Jeddah"
+                            data-ar="جامعة جدة">
+                            University of Jeddah
+                        </strong>
+
+                    </div>
+
+                    <div class="about-card-item">
+
+                        <span
+                            data-en="Major"
+                            data-ar="التخصص">
+                            Major
+                        </span>
+
+                        <strong
+                            data-en="Software Engineering"
+                            data-ar="هندسة البرمجيات">
+                            Software Engineering
+                        </strong>
+
+                    </div>
+
+                    <div class="about-card-item">
+
+                        <span
+                            data-en="Year of Study"
+                            data-ar="السنة الدراسية">
+                            Year of Study
+                        </span>
+
+                        <strong
+                            data-en="Fourth Year"
+                            data-ar="السنة الرابعة">
+                            Fourth Year
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SKILLS
+    ========================= -->
+
+    <section id="skills" class="section alt-section">
+
+        <div class="container reveal">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    02 / SKILLS
+                </span>
+
+                <h2
+                    data-en="Technical Skills"
+                    data-ar="المهارات التقنية">
+                    Technical Skills
+                </h2>
+
+                <p
+                    data-en="Technologies and tools I'm exploring and developing my skills in."
+                    data-ar="تقنيات وأدوات أتعلمها وأطور مهاراتي فيها.">
+
+                    Technologies and tools I'm exploring
+                    and developing my skills in.
+
+                </p>
+
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">⌘</div>
+
+                    <h3
+                        data-en="Programming"
+                        data-ar="البرمجة">
+                        Programming
+                    </h3>
+
+                    <p>
+                        Java • Python • JavaScript
+                    </p>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">◈</div>
+
+                    <h3
+                        data-en="Web Development"
+                        data-ar="تطوير الويب">
+                        Web Development
+                    </h3>
+
+                    <p>
+                        HTML • CSS • JavaScript
+                    </p>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">◇</div>
+
+                    <h3
+                        data-en="Tools"
+                        data-ar="الأدوات">
+                        Tools
+                    </h3>
+
+                    <p>
+                        Git • GitHub • VS Code
+                    </p>
+
+                </div>
+
+                <div class="skill-card">
+
+                    <div class="skill-icon">✦</div>
+
+                    <h3
+                        data-en="Creative Skills"
+                        data-ar="المهارات الإبداعية">
+                        Creative Skills
+                    </h3>
+
+                    <p>
+                        Design • Media • Photography
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS
+    ========================= -->
+
+    <section id="projects" class="section">
+
+        <div class="container reveal">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    03 / PROJECTS
+                </span>
+
+                <h2
+                    data-en="Featured Projects"
+                    data-ar="مشاريعي">
+
+                    Featured Projects
+
+                </h2>
+
+                <p
+                    data-en="A selection of my design projects, with more work coming soon."
+                    data-ar="مجموعة من مشاريعي التصميمية، مع المزيد من الأعمال قريبًا.">
+
+                    A selection of my design projects,
+                    with more work coming soon.
+
+                </p>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <!-- =====================
+                     AQARI PROJECT
+                ===================== -->
+
+                <article class="project-card">
+
+                    <!-- AQARI IMAGE -->
+
+                    <div class="project-image">
+
+                        <img
+                            src="assets/aqari.png"
+                            alt="Aqari Real Estate Project Logo"
+                            loading="lazy"
+                        >
+
+                    </div>
+
+
+                    <!-- PROJECT INFORMATION -->
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            UI/UX DESIGN
+                        </span>
+
+                        <h3
+                            data-en="Aqari"
+                            data-ar="عقاري">
+
+                            Aqari
+
+                        </h3>
+
+                        <p
+                            data-en="A collaborative UI/UX design project for a real estate platform, created in Figma with a focus on clean interfaces and easy navigation."
+                            data-ar="مشروع تصميم واجهات وتجربة مستخدم لمنصة عقارية، أُنجز بالتعاون مع فريق باستخدام Figma، مع التركيز على بساطة الواجهات وسهولة التنقل.">
+
+                            A collaborative UI/UX design project for
+                            a real estate platform, created in Figma
+                            with a focus on clean interfaces and
+                            easy navigation.
+
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span>Figma</span>
+
+                            <span>UI Design</span>
+
+                            <span>UX Design</span>
+
+                        </div>
+
+                        <a
+                            href="https://www.figma.com/design/CJ4EhfWtxSUOy2Cy8ICbc7/Aqari?node-id=0-1&amp;t=1U2xReM6yGIYovJB-1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-en="View on Figma ↗"
+                            data-ar="عرض التصميم على Figma ↗">
+
+                            View on Figma ↗
+
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- =====================
+                     COMING SOON
+                ===================== -->
+
+                <article class="project-card">
+
+                    <div class="project-image">
+
+                        <span>✧</span>
+
+                    </div>
+
+                    <div class="project-info">
+
+                        <span class="project-category">
+                            COMING SOON
+                        </span>
+
+                        <h3
+                            data-en="More Projects Coming Soon"
+                            data-ar="المزيد من المشاريع قريبًا">
+
+                            More Projects Coming Soon
+
+                        </h3>
+
+                        <p
+                            data-en="I'm continuing to learn, design, and build. More academic and personal projects will be added here soon."
+                            data-ar="أواصل التعلم والتصميم والتطوير، وسأضيف المزيد من مشاريعي الجامعية والشخصية قريبًا.">
+
+                            I'm continuing to learn, design, and build.
+                            More academic and personal projects
+                            will be added here soon.
+
+                        </p>
+
+                        <div class="project-tags">
+
+                            <span
+                                data-en="Stay Tuned"
+                                data-ar="ترقبوا الجديد">
+
+                                Stay Tuned
+
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         EXPERIENCE
+    ========================= -->
+
+    <section id="experience" class="section alt-section">
+
+        <div class="container reveal">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    04 / EXPERIENCE
+                </span>
+
+                <h2
+                    data-en="Experience & Volunteering"
+                    data-ar="الخبرات والعمل التطوعي">
+
+                    Experience & Volunteering
+
+                </h2>
+
+            </div>
+
+            <div class="timeline">
+
+                <!-- BASHOSH -->
+
+                <div class="timeline-item">
+
+                    <span class="timeline-dot"></span>
+
+                    <div class="timeline-content">
+
+                        <h3>Bashosh Volunteering Team</h3>
+
+                        <span
+                            data-en="Publishing & Social Media Leadership"
+                            data-ar="قيادة النشر وإدارة حسابات التواصل">
+
+                            Publishing & Social Media Leadership
+
+                        </span>
+
+                        <p
+                            data-en="Contributing to volunteering initiatives through content publishing and social media management."
+                            data-ar="المساهمة في المبادرات التطوعية من خلال النشر وإدارة حسابات التواصل الاجتماعي.">
+
+                            Contributing to volunteering initiatives
+                            through content publishing and
+                            social media management.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- GDG -->
+
+                <div class="timeline-item">
+
+                    <span class="timeline-dot"></span>
+
+                    <div class="timeline-content">
+
+                        <h3>GDG On Campus UJ</h3>
+
+                        <span
+                            data-en="Media & Design"
+                            data-ar="الإعلام والتصميم">
+
+                            Media & Design
+
+                        </span>
+
+                        <p
+                            data-en="Participating in media and design activities within the university tech community."
+                            data-ar="المشاركة في أنشطة الإعلام والتصميم ضمن المجتمع التقني الجامعي.">
+
+                            Participating in media and design activities
+                            within the university tech community.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DRONES CLUB -->
+
+                <div class="timeline-item">
+
+                    <span class="timeline-dot"></span>
+
+                    <div class="timeline-content">
+
+                        <h3>Drones Club</h3>
+
+                        <span
+                            data-en="Media & Photography"
+                            data-ar="الإعلام والتصوير">
+
+                            Media & Photography
+
+                        </span>
+
+                        <p
+                            data-en="Supporting club activities through media coverage and photography."
+                            data-ar="دعم أنشطة النادي من خلال التغطية الإعلامية والتصوير.">
+
+                            Supporting club activities through
+                            media coverage and photography.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CERTIFICATES
+    ========================= -->
+
+    <section id="certificates" class="section">
+
+        <div class="container reveal">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    05 / CERTIFICATES
+                </span>
+
+                <h2
+                    data-en="Certificates & Achievements"
+                    data-ar="الشهادات والإنجازات">
+
+                    Certificates & Achievements
+
+                </h2>
+
+                <p
+                    data-en="My certificates and achievements will be showcased here."
+                    data-ar="سيتم عرض شهاداتي وإنجازاتي هنا.">
+
+                    My certificates and achievements
+                    will be showcased here.
+
+                </p>
+
+            </div>
+
+            <div class="certificate-placeholder">
+
+                <span>✧</span>
+
+                <h3
+                    data-en="Coming Soon"
+                    data-ar="قريبًا">
+
+                    Coming Soon
+
+                </h3>
+
+                <p
+                    data-en="This section is being updated."
+                    data-ar="يتم تحديث هذا القسم.">
+
+                    This section is being updated.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================= -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="container reveal">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    06 / CONTACT
+                </span>
+
+                <h2
+                    data-en="Let's Connect"
+                    data-ar="لنتواصل">
+
+                    Let's Connect
+
+                </h2>
+
+                <p
+                    data-en="Interested in connecting or collaborating? Feel free to reach out."
+                    data-ar="هل ترغب بالتواصل أو التعاون؟ يسعدني تواصلك.">
+
+                    Interested in connecting or collaborating?
+                    Feel free to reach out.
+
+                </p>
+
+            </div>
+
+
+            <div class="contact-links">
+
+                <!-- GITHUB -->
+
+                <a
+                    href="https://github.com/rmaasbadr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-card">
+
+                    <span>⌘</span>
+
+                    <h3>GitHub</h3>
+
+                    <p>github.com/rmaasbadr</p>
+
+                </a>
+
+
+                <!-- EMAIL -->
+
+                <a
+                    href="mailto:rmass2005@hotmail.com"
+                    class="contact-card"
+                    aria-label="Send an email to Rmaas Badr">
+
+                    <span>✉</span>
+
+                    <h3>Email</h3>
+
+                    <p>rmass2005@hotmail.com</p>
+
+                </a>
+
+
+                <!-- LINKEDIN -->
+
+                <a
+                    href="https://www.linkedin.com/in/rmaas-badr-7a4100252/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="contact-card"
+                    aria-label="Visit Rmaas Badr on LinkedIn">
+
+                    <span>in</span>
+
+                    <h3>LinkedIn</h3>
+
+                    <p
+                        data-en="Connect with me on LinkedIn"
+                        data-ar="تواصل معي عبر لينكدإن">
+
+                        Connect with me on LinkedIn
+
+                    </p>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+
+                <span
+                    data-en="Rmaas"
+                    data-ar="رماس">
+
+                    Rmaas
+
+                </span><span>.</span>
+
+            </a>
+
+            <p>
+
+                © <span id="year"></span>
+
+                <span
+                    data-en="Rmaas Badr."
+                    data-ar="رماس بدر.">
+
+                    Rmaas Badr.
+
+                </span>
+
+                <span
+                    data-en="All rights reserved."
+                    data-ar="جميع الحقوق محفوظة.">
+
+                    All rights reserved.
+
+                </span>
+
+            </p>
+
+            <a
+                href="#home"
+                class="back-top"
+                data-en="Back to Top ↑"
+                data-ar="العودة للأعلى ↑">
+
+                Back to Top ↑
+
+            </a>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
